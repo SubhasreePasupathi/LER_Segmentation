@@ -2,7 +2,7 @@
 # Flexible Multi-Task Deep Learning for Lane-Aware Panoptic Segmentation in Autonomous Driving 
 
 ## **Official Implementation for *Flexible Multi-Task Deep Learning for Lane-Aware Panoptic Segmentation in Autonomous Driving* submitted to the PeerJ Journal**
-## [[LER Dataset](https://drive.google.com/drive/folders/17ur_H7CkwFBAZug-QVM4NauiBSPmAl4b?usp=drive_link)] [Modified Dataset](https://drive.google.com/drive/folders/1T2hEF7VbFGRytLEMxsbDKYg-ehi8NmUg?usp=sharing)] [[Original Cityscapes VPS Dataset](https://www.dropbox.com/scl/fi/th8t12uvalox9fopzlab1/cityscapes-vps-dataset-1.0.zip?rlkey=rfd1prz6jsn4kxi1nc04gqqsr&e=1&dl=0)] [[Original KITTI STEP Dataset](https://www.cvlibs.net/datasets/kitti/eval_step.php)] [[Original Waymo PVPS Dataset](https://waymo.com/open/download)]
+## [[LER Dataset](https://drive.google.com/drive/folders/17ur_H7CkwFBAZug-QVM4NauiBSPmAl4b?usp=drive_link)] [[Modified Dataset](https://drive.google.com/drive/folders/1T2hEF7VbFGRytLEMxsbDKYg-ehi8NmUg?usp=sharing)] [[Original Cityscapes VPS Dataset](https://www.dropbox.com/scl/fi/th8t12uvalox9fopzlab1/cityscapes-vps-dataset-1.0.zip?rlkey=rfd1prz6jsn4kxi1nc04gqqsr&e=1&dl=0)] [[Original KITTI STEP Dataset](https://www.cvlibs.net/datasets/kitti/eval_step.php)] [[Original Waymo PVPS Dataset](https://waymo.com/open/download)]
 
 The repo has the code and data of the novel Decoupled Video Panoptic Segmentation applied on VPS datasets such as Cityscapes VPS, KITTI STEP, and Waymo VPS datasets. The work is presented in the article titled *Decoupled Approaches for Road Semantics-Inclusive Video Panoptic Segmentation in Autonomous Driving* submitted to The Visual Computer Journal, Springer.
 
