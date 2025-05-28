@@ -35,7 +35,7 @@ python -m pip install paddlepaddle-gpu==2.4.2 -i https://pypi.tuna.tsinghua.edu.
 
 ```
 The details about linking regular VPS with LER shall be found in the related work presented in this [repo](https://github.com/SubhasreePasupathi/Decoupled_VPS)
-```
+
 **EVALUATION**
 
 All the codes related to evaluation metrics as part of the paddleseg API.
