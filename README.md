@@ -1,3 +1,9 @@
+# Flexible Multi-Task Deep Learning for Lane-Aware Panoptic Segmentation in Autonomous Driving 
+
+## **Official Implementation for *Flexible Multi-Task Deep Learning for Lane-Aware Panoptic Segmentation in Autonomous Driving* submitted to the PeerJ Journal**
+## [[LER Dataset Labels](https://drive.google.com/drive/folders/17ur_H7CkwFBAZug-QVM4NauiBSPmAl4b?usp=drive_link)] 
+
+
 The LER segmentation inclusive VPS presented in the article is a novel dataset called LER dataset which is based on Drivable Area Detection (DAD) as part of the BDD100K dataset. The labels of the modified dataset can be downloaded from the Google Drive link provided in this repository. The original dataset's labels and the original RGB images shall be downloaded from the BSS100k dataset's [official website](https://bair.berkeley.edu/blog/2018/05/30/bdd).
 
 The file "color_correction_for_LER_dataset_creation.m" is a MATLAB script to convert the BDD Drivable Area Detection maks to LER masks. The LER dataset label are already provided in the repo. This code may be modified for re-purposing to different applications.
