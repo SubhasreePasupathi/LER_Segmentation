@@ -8,6 +8,9 @@ The repo has the code and data of the novel Left, Ego, Right (LER) Segmentation 
 
 ### Preamble
 The LER segmentation inclusive VPS presented in the article is a novel dataset  called LEr dataset which is based on Drivable Area Detection (DAD) as part of the BDD100K dataset. The labels of the modified dataset can be downloaded from the Google Drive link provided in this repository. The original dataset's labels and the original RGB images shall be downloaded from the BSS100k dataset's [official website](https://bair.berkeley.edu/blog/2018/05/30/bdd).
+
+The file "color_correction_for_LER_dataset_creation.m" is a MATLAB script to convert the BDD Drivable Area Detection maks to LER masks. The LER dataset label are already provided in the repo. This code may be modified for re-purposing to different applications.
+
 ### Disclaimer
 The contents of the repo are tested under Python 3.7, PyTorch 1.12, Cuda 10.2, and mmcv==0.2.14
 
