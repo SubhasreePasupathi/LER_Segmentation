@@ -30,6 +30,9 @@ pip install -v -e .
 ```
 
 The following are the steps involved to get inferences from Paddleseg for the semantic segmentation network PPLITESEG 
+
+Ensure that the pre-requisite installations in the "requirements.txt" are made. 
+
 ```
 python -m pip install paddlepaddle-gpu==2.4.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
