@@ -42,7 +42,7 @@ After installing paddleseg the following modifications should be made in the pad
 
 1.The configuration for training reported in the paper are made available as yaml files. Replace those files in the path "paddleseg_root/configs/pp_liteseg" with the ones in this repo.
 
-2. The semantic weights are basically implemented in the loss function (OhEM Cross Entropy loss) in the path "padddleseg_root/paddleseg/models/losses/ohem_cross_entropy_loss.py". Replce the original file with the one made available in this repo for implementing semantic weights for LER segmentation.
+2. The semantic weights are basically implemented in the loss function (OhEM Cross Entropy loss) in the path "padddleseg_root/paddleseg/models/losses/ohem_cross_entropy_loss.py". Replce the original file with the one made available in this repo for implementing semantic weights for LER segmentation. Line numbers 96 to 116 may be suitably modified to either perform plain (no semantic weights) training or the semantic weights-based training. By defauly the code has semantic weights set to (1, 2, 3).
    
 3. Change the dataset path to the location where the LER dataset is made available
    
