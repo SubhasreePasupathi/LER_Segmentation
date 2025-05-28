@@ -34,6 +34,16 @@ The following are the steps involved to get inferences from Paddleseg for the se
 python -m pip install paddlepaddle-gpu==2.4.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ```
+
+After installing paddleseg the following modifications should be made in the paddle seg directory. All the required files for modification are made available in this repo.
+1.The configuration for training reported in the paper are made available as yaml files. Replace those files in the path "paddleseg_root/configs/pp_liteseg" with the ones in this repo.
+2. The semantic weights are basically implemented in the loss function (OhEM Cross Entropy loss) in the path "padddleseg_root/paddleseg/models/losses/ohem_cross_entropy_loss.py". Replce the original file with the one made available in this repo for implementing semantic weights for LER segmentation. 
+3. Change the dataset path to the location where the LER dataset is made available
+4. Replace the file "logger.py" in the location "padddleseg_root/paddleseg/utils" with logger_subha.py provided in this repo.
+5. Use the "train_subha.py" instead of "train.py" to initiate the training.
+6. Use "evaluate.py" and "predict.py" as originally available in the paddleseg. No edits required for evaluation and prediction.
+
+
 The details about linking regular VPS with LER shall be found in the related work presented in this [repo](https://github.com/SubhasreePasupathi/Decoupled_VPS)
 
 **EVALUATION**
