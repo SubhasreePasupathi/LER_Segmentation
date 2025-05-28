@@ -58,4 +58,4 @@ The details about linking regular VPS with LER shall be found in the related wor
 
 **EVALUATION**
 
-All the codes related to evaluation metrics as part of the paddleseg API.
+All the codes related to evaluation metrics as part of the paddleseg API. The original evaluate.py file shall be used for the same.
