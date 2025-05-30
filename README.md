@@ -56,6 +56,11 @@ After installing paddleseg the following modifications should be made in the pad
 
 The details about linking regular VPS with LER shall be found in the related work presented in this [repo](https://github.com/SubhasreePasupathi/Decoupled_VPS)
 
+The various VPS datasets used are linked below:
+
+# [[Modified Dataset](https://drive.google.com/drive/folders/1T2hEF7VbFGRytLEMxsbDKYg-ehi8NmUg?usp=sharing)] [[Original Cityscapes VPS Dataset](https://www.dropbox.com/scl/fi/th8t12uvalox9fopzlab1/cityscapes-vps-dataset-1.0.zip?rlkey=rfd1prz6jsn4kxi1nc04gqqsr&e=1&dl=0)] [[Original KITTI STEP Dataset](https://www.cvlibs.net/datasets/kitti/eval_step.php)] [[Original Waymo PVPS Dataset](https://waymo.com/open/download)]
+
+
 **EVALUATION**
 
 All the codes related to evaluation metrics as part of the paddleseg API. The original evaluate.py file shall be used for the same.
